@@ -273,7 +273,7 @@ ul{
         text-transform: capitalize;
     }
     .image{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/home/afifa/Downloads/image-fisheye.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/image-fisheye.jpg');
         height: 32rem;
         background-repeat: no-repeat;
         background-size:100% 100%;
@@ -542,7 +542,7 @@ ul{
         text-transform: capitalize;
     }
     .image{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.637)),url('/home/afifa/Downloads/image-fisheye.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.637)),url('images/image-fisheye.jpg');
         height: 29rem;
         background-repeat: no-repeat;
         background-size:100% 100%;
@@ -811,7 +811,7 @@ ul{
         text-transform: capitalize;
     }
     .image{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.637)),url('/home/afifa/Downloads/image-fisheye.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.637)),url('images/image-fisheye.jpg');
         height: 38rem;
         background-repeat: no-repeat;
         background-size:100% 100%;

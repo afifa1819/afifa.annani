@@ -1,0 +1,830 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    width: 100vw;
+    overflow-x: hidden;
+  }
+:root{
+ 
+--first-color:#fca4a6;
+--first-color-dark:#c1576a;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+
+}
+
+.nav-link:hover{
+    color: var(--first-color);
+}
+
+
+.cta:hover{
+    background-color: var(--first-color);
+    color: rgba(245, 245, 245, 0.959);
+}
+
+
+
+
+ .contact-us:hover{
+     background-color: rgb(224, 64, 216);
+ }
+ h3{
+     font-weight: 700;
+ }
+
+
+@media screen and (min-width:992px){
+    footer{
+        padding: 3rem;
+        background-color: var(--first-color-dark);
+    }
+    .scrolltop{
+        position: fixed;
+        right: 1rem;
+        bottom: -20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: .3rem;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: .4rem;
+      
+        transition: 0.4s;
+        visibility: hidden;
+      }
+      
+      .scrolltop:hover{
+        background-color: var(--first-color);
+      }
+      
+     .icon{
+        width: 2rem;
+        color: rgb(56, 55, 55);
+        margin: 3rem 17rem;
+        cursor: pointer;
+    
+     }
+     .icon:hover{
+         color: white;
+     }
+      .contact-us:hover{
+          color: turquoise;
+      }
+    .footer__social{
+        
+        padding: 1rem;
+    }
+    .footer__content{
+        float: right ;
+        padding:0 17rem;
+    }
+    .footer__copy{
+        color: white;
+       float: right;
+        padding: 1.5rem 14rem;
+    }
+    .text-contact{
+        font-weight: 600;
+        padding-bottom: 2rem;
+    }
+    .contact{
+        background-color: #2db6fa;
+        margin-top: 4rem;
+       padding: 1rem;
+       padding-top: 1rem;
+       max-height: 13rem;
+    }
+    .container-contact{
+        display: flex;
+       color: whitesmoke;
+       margin: 2rem 20rem ;
+    }
+    .contact-us{
+   
+       left: 80%;
+       color: white;
+      top:30%;
+      border-radius: 3px;
+      padding:0.5rem 1rem;
+      text-transform: capitalize;
+       position: relative;
+       border: 1px solid var(--first-color-dark);
+       transform: translate(-50%,-50%);
+       background-color: var(--first-color-dark);
+    }
+    h4{
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    .Services{
+        background: #EEE;
+        padding: 4rem 9rem;
+        
+    }
+    
+    .service{
+        margin-bottom: 1rem;
+    }
+    
+    
+    .container{
+        margin: 1rem 20rem;
+    }
+    .col-1{
+        float: left;
+        width: 66.66%;
+    }
+    .col-2{
+        float: left;
+        width: 33.33;
+    }
+    
+    .img-desc{
+        width: 100%;
+        height: 100%;
+    }
+    span{
+        font-weight: 600;
+    }
+    .para{
+        line-height: 1.7rem;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #444;
+    }
+    .welcome{
+        margin: 1.5rem 0;
+        font-weight: 700;
+        color: #444;
+       
+    }
+    .line{
+        width: 68rem;
+        margin-top: 2rem;
+    }
+    .col-3,.col-4{
+       float: left;
+       width: 50%;
+    }
+    .title{
+        color: #a83e51;
+        font-weight: 700;
+    }
+    .desc{
+        font-size: 0.85rem;
+    }
+
+  
+.text{
+    color: white;
+    text-align: center;
+    top: 55%;
+    font-weight: 400;
+    left: 50%;
+    font-size: 0.9rem;
+    position: absolute;
+    
+    transform: translate(-50%,-50%);
+}
+.cta{
+
+    left: 50%;
+    color: white;
+   top:70%;
+   border-radius: 3px;
+   padding:0.5rem 1rem;
+   text-transform: capitalize;
+    position: absolute;
+    border: 1px solid var(--first-color-dark);
+    transform: translate(-50%,-50%);
+    background-color: var(--first-color-dark);
+
+}
+    .hero-text{
+        color: white;
+        text-align: center;
+        top: 36%;
+        font-weight: 900;
+        left: 50%;
+        font-size: 2.7rem;
+        position: absolute;
+        transform: translate(-50%,-50%);
+    }
+    .nav{
+        height: 8rem;
+        margin: 0;
+    }
+    .column{
+        float: left;
+        width: 33.33%;
+        text-align: center;
+    }
+    .nav-brand{
+        letter-spacing: -1px;
+        border: 0.4px solid var(--first-color);
+        background-color: var(--first-color);
+        font-weight: 900;
+        text-transform: uppercase;
+     
+        float: left;
+        color: white;
+        line-height: 0.5rem;
+       
+        max-width: 16rem;
+        text-align: center;
+    
+        float: left;
+        cursor: pointer;
+        margin: 0.3rem 19rem;
+        margin-bottom: 2.5rem;
+        
+    }
+    .brand{
+        font-weight: 900;
+        text-transform: uppercase;
+       font-size: 2.1rem;
+        float: left;
+        color: white;
+        line-height: 0.9rem;
+        padding: 30px 20px;
+        padding-bottom: 1rem;
+       
+    }
+    .links{
+        display:flex;   
+       
+    }
+    .item{
+        margin: 4rem 0.004rem ;
+    }
+    .nav-link{
+        color: rgba(0, 0, 0, 0.685);
+        font-weight: 600;
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+    .image{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/home/afifa/Downloads/image-fisheye.jpg');
+        height: 32rem;
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+    }
+    .col-5,.col-6,.col-7{
+        float: left;
+        width: 33.33%; 
+       margin-top: 2rem;
+     }
+}
+@media screen  and (min-width:768px) and (max-width:991px){
+    footer{
+        padding: 3rem;
+        background-color: var(--first-color-dark);
+    }
+    .scrolltop{
+        position: fixed;
+       
+       
+       
+        justify-content: center;
+        align-items: center;
+       
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: .4rem;
+      
+        transition: 0.4s;
+        visibility: hidden;
+      }
+      
+      .scrolltop:hover{
+        background-color: var(--first-color);
+      }
+      
+     .icon{
+        width: 2rem;
+        color: rgb(56, 55, 55);
+        margin:1.5rem 20rem ;
+        cursor: pointer;
+    
+     }
+     .icon:hover{
+         color: white;
+     }
+    
+    .footer__social{
+      
+        padding: 1rem;
+    }
+    .footer__content{
+        position: relative;
+        margin: 5rem -5.5rem;
+        margin-bottom: 1rem;
+        
+    }
+    .footer-copy p{
+        color: white;
+       
+        padding:1rem ;
+        
+        text-align: center;
+        
+    }
+    .footer__copy{
+        text-align: center;
+        
+        transform: translateX(-10rem);
+    }
+    .contact{
+        background-color: #2db6fa;
+      
+      
+       padding-top: 1rem;
+       height: 15rem;
+       
+    }
+    .container-contact{
+        
+       color: whitesmoke;
+      padding-top:1.5rem ;
+    }
+
+    .text-contact{
+        padding:1rem ;
+    }
+    .contact-us{
+   
+      
+       color: white;
+   
+      border-radius: 3px;
+      padding:0.5rem 1rem;
+      text-transform: capitalize;
+    
+       border: 1px solid var(--first-color-dark);
+     
+       background-color: var(--first-color-dark);
+    }
+    
+    h4{
+        font-weight: 600;
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+    .col-5,.col-6,.col-7{
+        float: left;
+        width: 100%; 
+       margin-top: 2rem;
+       text-align: center;
+     }
+    .Services{
+        background: #EEE;
+        padding: 2.5rem ;
+        
+    }
+    
+    .service{
+        margin-bottom: 0.5rem;
+    }
+    
+    
+    .container{
+        margin: 1rem ;
+    }
+    .col-2{
+        float: left;
+        width:100%;
+    }
+    
+    .col-1{
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+   
+    
+    .img-desc{
+        width: 50%;
+        height: 90%;
+        
+    }
+    span{
+        font-weight: 600;
+    }
+    .para{
+        line-height: 1.7rem;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #444;
+    }
+    .welcome{
+        margin: 1.5rem 0;
+        font-weight: 700;
+        color: #444;
+       
+    }
+    .line{
+        width: 42rem;
+        margin: 2rem 0;
+    }
+    .col-3,.col-4{
+       float: left;
+       width: 100%;
+       text-align: center;
+    }
+    .title{
+        color: #a83e51;
+        font-weight: 700;
+    }
+    .desc{
+        font-size: 0.85rem;
+        margin: 1rem 1.3rem;
+    }
+  
+.text{
+    color: white;
+    text-align: center;
+    
+    font-weight: 400;
+    
+    font-size: 0.9rem;
+    position: absolute;
+    
+   margin: 14rem 3.3rem;
+}
+.cta{
+
+    left: 50%;
+    color: white;
+   top:70%;
+   border-radius: 3px;
+   padding:0.5rem 1rem;
+   text-transform: capitalize;
+    position: absolute;
+    border: 1px solid var(--first-color-dark);
+    transform: translate(-50%,-50%);
+    background-color: var(--first-color-dark);
+
+}
+    .hero-text{
+        color: white;
+        text-align: center;
+       
+        font-weight: 900;
+       
+        font-size: 2.7rem;
+        position: absolute;
+      
+        margin: 6rem 8.9rem;
+        margin-bottom: 0.2rem;
+    }
+    .nav{
+        height: 15rem;
+    }
+    .column{
+        float: left;
+        margin: 2rem 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-brand{
+        letter-spacing: -1px;
+        border: 0.4px solid var(--first-color);
+        background-color: var(--first-color);
+        font-weight: 900;
+        text-transform: uppercase;
+       
+        
+        color: white;
+        line-height: 0.5rem;
+       
+        width:  17rem;
+        text-align: center;
+    
+        
+        cursor: pointer;
+        margin:1rem 0 1rem 15rem ;
+        
+        
+    }
+    .brand{
+        font-weight: 900;
+        text-transform: uppercase;
+       font-size: 2.1rem;
+       
+        color: white;
+        line-height: 0.9rem;
+        padding: 30px ;
+        
+        padding-bottom: 1rem;
+    }
+    .links{
+        display:flex;
+         padding:1rem 5rem;
+       
+    }
+    .item{
+        margin:  0.003rem ;
+    }
+    .nav-link{
+        color: rgba(0, 0, 0, 0.685);
+        font-weight: 600;
+        cursor: pointer;
+
+        text-transform: capitalize;
+    }
+    .image{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.637)),url('/home/afifa/Downloads/image-fisheye.jpg');
+        height: 29rem;
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        
+    }
+}
+@media screen and (max-width: 767px){
+    footer{
+        padding: 3rem;
+        background-color: var(--first-color-dark);
+    }
+    .scrolltop{
+        position: fixed;
+       
+       
+       
+        justify-content: center;
+        align-items: center;
+       
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: .4rem;
+      
+        transition: 0.4s;
+        visibility: hidden;
+      }
+      
+      .scrolltop:hover{
+        background-color: var(--first-color);
+      }
+      
+     .icon{
+         display: none;
+        width: 2rem;
+        color: rgb(56, 55, 55);
+        margin:1.5rem  ;
+        cursor: pointer;
+    
+     }
+     .icon:hover{
+         color: white;
+     }
+    
+    .footer__social{
+      
+        padding: 1rem;
+    }
+    .footer__content{
+        display: flex;
+        margin:2rem 5rem ;
+       
+        
+        
+    }
+    .footer-copy p{
+        color: white;
+       
+        
+        
+        text-align: center;
+        
+    }
+    .footer__copy{
+        text-align: center;
+        
+        transform: translateX(1rem);
+    }
+    .contact{
+        background-color: #2db6fa;
+      
+      
+       padding-top: 1rem;
+       height: 18rem;
+       
+    }
+    .container-contact{
+        
+       color: whitesmoke;
+      padding-top:1rem ;
+    }
+
+    .text-contact{
+        padding:1rem ;
+    }
+    .contact-us{
+   
+      
+       color: white;
+   
+      border-radius: 3px;
+      padding:0.5rem 1rem;
+      
+      text-transform: capitalize;
+    
+       border: 1px solid var(--first-color-dark);
+     
+       background-color: var(--first-color-dark);
+    }
+    
+    h4{
+        font-weight: 600;
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+    .col-5,.col-6,.col-7{
+        float: left;
+        width: 100%; 
+       margin-top: 2rem;
+       text-align: center;
+     }
+    .Services{
+        background: #EEE;
+        padding: 2.5rem ;
+        
+    }
+    
+    .service{
+        margin-bottom: 0.5rem;
+    }
+    
+    
+    .container{
+        margin: 1rem ;
+    }
+    .col-2{
+        float: left;
+        width:100%;
+    }
+    
+    .col-1{
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+   
+    
+    .img-desc{
+        width: 50%;
+        height: 90%;
+        
+    }
+    span{
+        font-weight: 600;
+    }
+    .para{
+        line-height: 1.7rem;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #444;
+    }
+    .welcome{
+        margin: 1.5rem 0;
+        font-weight: 700;
+        color: #444;
+       
+    }
+    .line{
+        width: 42rem;
+        margin: 2rem 0;
+    }
+    .col-3,.col-4{
+      margin-bottom: 0.3rem ;
+       width: 100%;
+       text-align: center;
+    }
+    .title{
+        color: #a83e51;
+        font-weight: 700;
+    }
+    .desc{
+        font-size: 0.85rem;
+        margin: 1rem 1.3rem;
+    }
+  
+.text{
+    color: white;
+    text-align: center;
+    
+    font-weight: 400;
+    
+    font-size: 0.9rem;
+    position: absolute;
+    
+   margin: 18rem 3.3rem;
+}
+.cta{
+
+    left: 50%;
+    color: white;
+   top:70%;
+   border-radius: 3px;
+   padding:0.5rem 1rem;
+   text-transform: capitalize;
+    position: absolute;
+    border: 1px solid var(--first-color-dark);
+    transform: translate(-50%,-50%);
+    background-color: var(--first-color-dark);
+  margin-top: 2rem;
+}
+    .hero-text{
+        color: white;
+        text-align: center;
+       
+        font-weight: 900;
+       
+        font-size: 2.5rem;
+        position: absolute;
+      
+        margin: 5rem ;
+        margin-bottom: 0.2rem;
+    }
+    .nav{
+        height: 15rem;
+    }
+    .column{
+        float: left;
+        margin: 2rem 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-brand{
+        letter-spacing: -1px;
+        border: 0.4px solid var(--first-color);
+        background-color: var(--first-color);
+        font-weight: 900;
+        text-transform: uppercase;
+       
+        
+        color: white;
+        line-height: 0.5rem;
+       
+        width:  16rem;
+        text-align: center;
+    
+        
+        cursor: pointer;
+        margin:1rem 5rem ;
+        
+        
+    }
+    .brand{
+        font-weight: 900;
+        text-transform: uppercase;
+       font-size: 2.1rem;
+       
+        color: white;
+        line-height: 0.9rem;
+        padding: 30px ;
+        
+        padding-bottom: 1rem;
+    }
+    .links{
+       display: none;
+       
+       
+    }
+    .item{
+        
+        margin:  0.003rem ;
+    }
+    .nav-link{
+        color: rgba(0, 0, 0, 0.685);
+        font-weight: 600;
+        cursor: pointer;
+
+        text-transform: capitalize;
+    }
+    .image{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.637)),url('/home/afifa/Downloads/image-fisheye.jpg');
+        height: 38rem;
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        
+    }
+    .grid{
+     
+    
+       display: block;
+       margin-top: 2rem;
+       margin: 1rem 1.4rem;
+       color: #444;
+    }
+
+}
+
